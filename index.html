@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fundamentals Learning Module</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="learning-module">
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span class="progress-text" id="progressText">1 of 6</span>
+        </div>
+
+        <!-- Slide Container -->
+        <div class="slide-container" id="slideContainer">
+            
+            <!-- Slide 1: Welcome & Introduction -->
+            <div class="slide active" id="slide1">
+                <div class="permanent-intro">
+                    <h3>Data Management Pre-Work</h3>
+                    <p>Welcome to your Data Management Pre-Work!  Work through this module to learn more about data structures and data types. 
+                        <n>  Read through each topic, and interact with the knowledge checks along the way.  At the end, you will have a small assignment 
+                            <n>to bring to the Thursday meeting. </p>
+                </div>
+
+                <div class="slide-content">
+                    <h1>Welcome & Introduction</h1>
+                    
+                    <div class="content-section">
+                        <h4>Course Overview</h4>
+                        <p>This learning module consists of 6 interactive slides designed to build your understanding of data fundamentals:</p>
+                        <ol>
+                            <li><strong>Welcome & Introduction</strong> - Course overview and objectives</li>
+                            <li><strong>Structured vs Unstructured Data Theory</strong> - Key concepts and definitions</li>
+                            <li><strong>Structured vs Unstructured Data Interactive</strong> - Hands-on classification exercise</li>
+                            <li><strong>Data Types Overview Theory</strong> - Understanding essential data types</li>
+                            <li><strong>Data Types Overview Interactive</strong> - Practice identifying data types</li>
+                            <li><strong>Homework Assignment</strong> - Apply your knowledge</li>
+                        </ol>
+                    </div>
+
+                    <div class="content-section">
+                        <h4>Learning Objectives</h4>
+                        <ul>
+                            <li>Distinguish between structured and unstructured data</li>
+                            <li>Identify and categorize different data formats</li>
+                            <li>Understand the five fundamental data types</li>
+                            <li>Apply data typing concepts in practical scenarios</li>
+                            <li>Recognize the importance of proper data organization</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-section">
+                        <h4>Navigation Instructions</h4>
+                        <p>Use the <strong>Previous</strong> and <strong>Next</strong> buttons at the bottom to navigate through the slides. Your progress will be tracked at the top of the screen.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Structured vs Unstructured Data Theory -->
+            <div class="slide" id="slide2">
+                
+
+                <div class="slide-content">
+                    <h1>Structured vs Unstructured Data - Theory</h1>
+                    
+                    <div class="permanent-intro">
+                    <h3>Data Shapes Matter</h3>
+                    <p>The data you work with everyday is shaped in one of two ways: <strong>Structured Data</strong> and <strong>Unstructured Data.</strong>  Read the module below to learn about these differnt structures, 
+                        <n>then apply your knowledge to the knowledge check on the following page!</p>
+                </div>
+
+                    <div class="data-comparison">
+                        <div class="data-type-card structured">
+                            <h4>Structured Data</h4>
+                            <p><strong>Definition:</strong> Data that is organized in a predefined format, typically arranged in rows and columns like a table or database.</p>
+                            <div class="characteristics">
+                                <h5>Characteristics:</h5>
+                                <ul>
+                                    <li>Organized in tabular format</li>
+                                    <li>Fixed schema or structure</li>
+                                    <li>Easily searchable and queryable</li>
+                                    <li>Fits neatly into rows and columns</li>
+                                    <li>Machine-readable format</li>
+                                </ul>
+                            </div>
+                            <div class="examples">
+                                <h5>Examples:</h5>
+                                <ul>
+                                    <li>Excel spreadsheets</li>
+                                    <li>Database tables</li>
+                                    <li>CSV files</li>
+                                    <li>XML files</li>
+                                    <li>JSON data</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="data-type-card unstructured">
+                            <h4>Unstructured Data</h4>
+                            <p><strong>Definition:</strong> Data that doesn't have a predefined format or organization, often containing free-form content that doesn't fit into traditional database structures.</p>
+                            <div class="characteristics">
+                                <h5>Characteristics:</h5>
+                                <ul>
+                                    <li>No predefined format</li>
+                                    <li>Free-form content</li>
+                                    <li>Difficult to search without processing</li>
+                                    <li>Rich in context and meaning</li>
+                                    <li>Requires specialized tools for analysis</li>
+                                </ul>
+                            </div>
+                            <div class="examples">
+                                <h5>Examples:</h5>
+                                <ul>
+                                    <li>Email messages</li>
+                                    <li>Video files</li>
+                                    <li>PDF documents</li>
+                                    <li>Social media posts</li>
+                                    <li>Word documents</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="importance-section">
+                        <h4>Why This Distinction Matters</h4>
+                        <p>Understanding the difference between structured and unstructured data is crucial because:</p>
+                        <ul>
+                            <li><strong>Storage Requirements:</strong> Different types require different storage solutions</li>
+                            <li><strong>Processing Methods:</strong> Each type needs specific tools and techniques for analysis</li>
+                            <li><strong>Query Capabilities:</strong> Structured data is easily searchable, while unstructured data requires specialized processing</li>
+                            <li><strong>Cost Implications:</strong> Storage and processing costs vary significantly between types</li>
+                            <li><strong>Data Quality:</strong> Structured data typically has higher consistency and quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Structured vs Unstructured Data Interactive -->
+            <div class="slide" id="slide3">
+                <div class="permanent-intro">
+                    <h3>Knowledge Check</h3>
+                    <p>Apply your knowledge through interactive exercises.</p>
+                </div>
+
+                <div class="slide-content">
+                    <h1>Structured vs Unstructured Data - Interactive</h1>
+                    
+                    <div class="interactive-exercise">
+                        <div class="score-display">
+                            <span id="scoreText">Score: 0/0</span>
+                            <button class="btn btn--secondary btn--sm" id="resetButton">Reset Exercise</button>
+                        </div>
+
+                        <div class="drag-drop-container">
+                            <div class="draggable-items" id="draggableItems">
+                                <h4>Drag these items to the correct category:</h4>
+                                <div class="items-grid" id="itemsGrid">
+                                    <!-- Items will be populated by JavaScript -->
+                                </div>
+                            </div>
+
+                            <div class="drop-zones">
+                                <div class="drop-zone structured-zone" id="structuredZone">
+                                    <h4>Structured Data</h4>
+                                    <p>Organized, tabular format</p>
+                                    <div class="dropped-items" id="structuredItems"></div>
+                                </div>
+
+                                <div class="drop-zone unstructured-zone" id="unstructuredZone">
+                                    <h4>Unstructured Data</h4>
+                                    <p>No predefined format</p>
+                                    <div class="dropped-items" id="unstructuredItems"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feedback-section" id="feedbackSection">
+                            <!-- Feedback will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Data Types Overview Theory -->
+            <div class="slide" id="slide4">
+                
+
+                <div class="slide-content">
+                    <h1>Data Types Overview - Theory</h1>
+                    <div class="permanent-intro">
+                    <h3>Core Data Types</h3>
+                    <p>Now that you understand the ways data is shaped when we work with it, lets examine each individual piece of data. Each piece of data has a specific type that tells the computer how 
+                        <n>to use it.  For example, if data were food, the data type would be the food groups! Read about the different types of data below, then apply it on the following interactive activity. 
+                    </p>
+                </div>
+
+                    <div class="data-types-grid">
+                        <div class="data-type-card">
+                            <h4>Boolean</h4>
+                            <p><strong>Description:</strong> Represents true/false values used for logical operations and conditions.</p>
+                            <div class="type-details">
+                                <p><strong>Examples:</strong> true, false</p>
+                                <p><strong>Use Cases:</strong> Status flags, conditional logic, yes/no questions, availability indicators</p>
+                                <p><strong>In Excel:</strong> Used for checkboxes, conditional formatting, and logical formulas</p>
+                            </div>
+                        </div>
+
+                        <div class="data-type-card">
+                            <h4>String</h4>
+                            <p><strong>Description:</strong> Text data enclosed in quotes, used for names, descriptions, and textual information.</p>
+                            <div class="type-details">
+                                <p><strong>Examples:</strong> "Hello World", "John Doe", "Product Description"</p>
+                                <p><strong>Use Cases:</strong> Names, addresses, descriptions, categories, IDs</p>
+                                <p><strong>In Excel:</strong> Text entries, concatenation, lookup values</p>
+                            </div>
+                        </div>
+
+                        <div class="data-type-card">
+                            <h4>Integer</h4>
+                            <p><strong>Description:</strong> Whole numbers without decimal points, used for counting and identification.</p>
+                            <div class="type-details">
+                                <p><strong>Examples:</strong> 42, -17, 0, 1000</p>
+                                <p><strong>Use Cases:</strong> Counts, IDs, quantities, rankings, years</p>
+                                <p><strong>In Excel:</strong> Mathematical calculations, counting functions, indexing</p>
+                            </div>
+                        </div>
+
+                        <div class="data-type-card">
+                            <h4>Float</h4>
+                            <p><strong>Description:</strong> Numbers with decimal points, used for measurements and precise calculations.</p>
+                            <div class="type-details">
+                                <p><strong>Examples:</strong> 3.14159, 0.5, -2.75, 99.99</p>
+                                <p><strong>Use Cases:</strong> Prices, measurements, percentages, scientific data</p>
+                                <p><strong>In Excel:</strong> Financial calculations, statistical analysis, decimal arithmetic</p>
+                            </div>
+                        </div>
+
+                        <div class="data-type-card">
+                            <h4>DateTime</h4>
+                            <p><strong>Description:</strong> Date and time values used for timestamps and temporal data.</p>
+                            <div class="type-details">
+                                <p><strong>Examples:</strong> 2024-07-01, 12:30:45, March 15, 2024</p>
+                                <p><strong>Use Cases:</strong> Timestamps, deadlines, schedules, historical data</p>
+                                <p><strong>In Excel:</strong> Date calculations, timeline analysis, scheduling functions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="importance-section">
+                        <h4>Why Proper Data Typing Matters</h4>
+                        <ul>
+                            <li><strong>Accuracy:</strong> Ensures calculations and operations work correctly</li>
+                            <li><strong>Efficiency:</strong> Optimizes storage space and processing speed</li>
+                            <li><strong>Validation:</strong> Prevents invalid data entry and errors</li>
+                            <li><strong>Functionality:</strong> Enables type-specific operations and functions</li>
+                            <li><strong>Interoperability:</strong> Facilitates data exchange between systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Data Types Overview Interactive -->
+            <div class="slide" id="slide5">
+                <div class="permanent-intro">
+                    <h3>Interactive Learning</h3>
+                    <p>Test your understanding through guided practice.</p>
+                </div>
+
+                <div class="slide-content">
+                    <h1>Data Types Overview - Interactive</h1>
+                    
+                    <div class="interactive-quiz">
+                        <div class="quiz-header">
+                            <div class="quiz-score">
+                                <span id="quizScoreText">Score: 0/0</span>
+                                <span id="questionCounter">Question 1 of 10</span>
+                            </div>
+                            <button class="btn btn--secondary btn--sm" id="resetQuizButton">Reset Quiz</button>
+                        </div>
+
+                        <div class="quiz-question-container">
+                            <div class="question-display">
+                                <h4>What data type is this value?</h4>
+                                <div class="value-display" id="valueDisplay">
+                                    <!-- Current question value will be displayed here -->
+                                </div>
+                            </div>
+
+                            <div class="answer-options">
+                                <button class="btn btn--outline quiz-option" data-type="boolean">Boolean</button>
+                                <button class="btn btn--outline quiz-option" data-type="string">String</button>
+                                <button class="btn btn--outline quiz-option" data-type="integer">Integer</button>
+                                <button class="btn btn--outline quiz-option" data-type="float">Float</button>
+                                <button class="btn btn--outline quiz-option" data-type="datetime">DateTime</button>
+                            </div>
+
+                            <div class="quiz-feedback" id="quizFeedback">
+                                <!-- Feedback will be shown here -->
+                            </div>
+
+                            <div class="quiz-navigation">
+                                <button class="btn btn--primary" id="nextQuestionButton" style="display: none;">Next Question</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Homework Assignment -->
+            <div class="slide" id="slide6">
+                <div class="permanent-intro">
+                    <h3>Real World Practice</h3>
+                    <p>Now that you have learned about data structures and data types, its time to find out how it applies to you! Look at the assignments below to prepare for Thursday's meeting.</p>
+                </div>
+
+                <div class="slide-content">
+                    <h1>Homework Assignment</h1>
+                    
+                   <div class="assignment-section">
+                     <h2>Data Structures</h2>
+            <p> Find an Example of Structured and Unstructured Data that you use in your work.  Save a copy or a screenshot of it, and write something about why it is that specific data structure.</p>
+</div>
+
+<div class="assignment-section">
+  <h2>Data types</h2>
+  <p>Find an example of a "string" data type, a "date-time" type, and a float/integer type in a spreadsheet you commonly use. </p>
+</div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="btn btn--secondary" id="prevButton" disabled>Previous</button>
+            <button class="btn btn--primary" id="nextButton">Next</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
