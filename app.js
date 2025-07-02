@@ -24,7 +24,7 @@ class LearningModule {
                 {question: "2024-07-03", correct: "datetime", explanation: "Date representations are datetime data types"},
                 {question: "\"1230489_Kedl_Ben_AMC\"", correct: "string", explanation: "Oasis Groups are strings, even though they contain numbers and symbols."},
                 {question: "-17", correct: "integer", explanation: "Negative whole numbers are still integer data types"},
-                {question: "", correct: "float", explanation: "Decimal numbers are float data types"},
+                {question: "93.5", correct: "float", explanation: "Decimal numbers, like grades, are float data types"},
                 {question: "\"2024\"", correct: "string", explanation: "Numbers in quotes are treated as string data type"},
                 {question: "12:30:45", correct: "datetime", explanation: "Time representations are datetime data types"}
             ]
