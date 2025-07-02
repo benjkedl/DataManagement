@@ -1446,6 +1446,7 @@ select.form-control {
 .slide-content h2 {
   text-align: center;
   margin-bottom: var(--space-32);
+  margin-top:var(--space-32);
   color: var(--color-primary);
 }
 
